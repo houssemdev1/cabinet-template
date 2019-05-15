@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-md-4" *ngFor="let item of cardContent?.helpCards">
+    <div class="help-card">
+      <img class="picture" src="{{ item?.Icon }}" />
+      <h4 class="picture-title">{{ item?.Title }}</h4>
+      <div class="picture-description">{{ item?.Text }}</div>
+    </div>
+  </div>
+</div>

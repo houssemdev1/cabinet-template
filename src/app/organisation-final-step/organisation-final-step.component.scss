@@ -1,0 +1,52 @@
+@import "abstracts/variables";
+
+.container {
+  width: 590px;
+  transform: translateY(50%);
+}
+
+h2 {
+  margin-top: 46px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $title-size;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: $Secondary-black;
+}
+
+p {
+  margin-top: 10px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $text-size;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: $Secondary-dark-2;
+}
+
+.btn-content {
+  margin-top: 78px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: $white;
+}
+button {
+  margin-top: 78px;
+  width: 363px;
+  height: 57px;
+  background: $Primary-color;
+  border-radius: 5px;
+}

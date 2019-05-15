@@ -1,0 +1,64 @@
+<div class="col-6">
+  <div class="container" id="right-container">
+    <div class="d-flex justify-content-center">
+      <div class="drop">
+        <div
+          ng2FileDrop
+          (onFileDrop)="onFileSelected($event)"
+          [ngClass]="{ 'nv-file-over': hasBaseDropZoneOver }"
+          (fileOver)="fileOverBase($event)"
+          [uploader]="uploader"
+          class="well my-drop-zone"
+        >
+          <div class="container flex-container">
+            <div class="row">
+              <div class="add-icon">
+                <div class="circle">
+                  <img src="/assets/arrow_downward.svg" />
+                </div>
+              </div>
+
+              <div class="col-6">
+                <p>
+                  Faites glisser les documents ici <br />ou cliquez sur le
+                  boutton “ajouter”
+                </p>
+              </div>
+              <div class="col-3">
+                <label for="file-upload" class="custom-file-upload">
+                  <i class="fa fa-cloud-upload"></i>Ajouter
+                </label>
+                <input
+                  id="file-upload"
+                  class="file-input"
+                  type="file"
+                  (change)="onSelectFile($event)"
+                  multiple
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <button class="btn cancel-btn">
+        <div class="content-btn-cancel" (click)="Routing()">ANNULER</div>
+      </button>
+      <button class="btn save-btn">
+        <div class="content-btn-save">ENREGISTRER</div>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="container display-container">
+  <div class="row">
+    <div class="col-md-3" *ngFor="let url of urls">
+      <div class="selected-item">
+        <img [src]="url" />
+        <br />
+      </div>
+    </div>
+  </div>
+</div>

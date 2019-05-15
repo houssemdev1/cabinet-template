@@ -1,0 +1,58 @@
+<div class="content-section">
+ 
+  <div class="container" style="width:720px">
+    <div class="d-flex justify-content-center">
+      <div class="title">
+        Ajoutez une nouvelle disponibilité
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <label> Séléctionnez la date de début de votre disponibilité</label>
+      <mat-form-field>
+        <mat-label>Custom calendar header</mat-label>
+        <input matInput [matDatepicker]="picker" />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker
+          #picker
+          [calendarHeaderComponent]="exampleHeader"
+        ></mat-datepicker>
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <label>Séléctionnez la durée de votre disponibilité</label>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn choice-btn ">
+          <div class="content-btn-time">1 semaine</div>
+        </button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn choice-btn">
+          <div class="content-btn-time">2 semaine</div>
+        </button>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row" style="padding-top:30px">
+      <div class="col">
+        <button type="button" class="btn choice-btn">
+          <div class="content-btn-time">1 mois</div>
+        </button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn choice-btn">
+          <div class="content-btn-time">2 mois</div>
+        </button>
+      </div>
+
+      <div class="col">
+        <button type="button" class="btn choice-btn ">
+          <div class="content-btn-time">6 mois</div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

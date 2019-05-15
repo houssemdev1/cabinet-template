@@ -1,0 +1,15 @@
+@import "abstracts/variables";
+.content {
+  font-family: $Primary-font;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px; /* identical to box height */
+  color: $Secondary-dark-1;
+}
+.right-container {
+  width: 730px;
+  height: 570px;
+  background: $Primary-white;
+  border-radius: 5px;
+  margin-top: 33px;
+}

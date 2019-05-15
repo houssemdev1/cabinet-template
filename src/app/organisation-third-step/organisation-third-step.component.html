@@ -1,0 +1,383 @@
+
+
+<div class="content-section">
+
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="title">
+        Ajouter une disponibilité
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="subtitle">
+        Séléctionnez les sessions de disponibilité de votre cabinet
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col"><div class="day-calendar">LUN</div></div>
+        <div class="col"><div class="day-calendar">MAR</div></div>
+        <div class="col"><div class="day-calendar">MER</div></div>
+        <div class="col"><div class="day-calendar">JEU</div></div>
+        <div class="col"><div class="day-calendar">VEN</div></div>
+        <div class="col"><div class="day-calendar">SAM</div></div>
+        <div class="col"><div class="day-calendar">DIM</div></div>
+      </div>
+      <div class="row">
+        <div class="col"><img src="/assets/gray_rectg.svg" /></div>
+        <div class="col"><img src="/assets/gray_rectg.svg" /></div>
+        <div class="col"><img src="/assets/gray_rectg.svg" /></div>
+        <div class="col"><img src="/assets/gray_rectg.svg" /></div>
+        <div class="col"><img src="/assets/gray_rectg.svg" /></div>
+        <div class="col"><img src="/assets/gray_rectg.svg" /></div>
+        <div class="col"><img src="/assets/gray_rectg.svg" /></div>
+      </div>
+      <div class="row">
+        <div class="col" [ngSwitch]="Morningsession_Mon">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-morning-session"
+              (click)="morningSession_Mon()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-morning-sessionActive"
+              (click)="morningSession_Mon()"
+            >
+              <div class="label-calendarActive">Session matinale</div>
+              <img
+                style="float:right;padding-left:2px ;transform: translateY(-9px); "
+                src="/assets/delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Morningsession_Tue">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-morning-session"
+              (click)="morningSession_Tue()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-morning-sessionActive"
+              (click)="morningSession_Tue()"
+            >
+              <div class="label-calendarActive">Session matinale</div>
+              <img
+                style="float:right;padding-left:2px;transform: translateY(-9px);  "
+                src="/assets/delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Morningsession_Wed">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-morning-session"
+              (click)="morningSession_Wed()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-morning-sessionActive"
+              (click)="morningSession_Wed()"
+            >
+              <div class="label-calendarActive">Session matinale</div>
+              <img
+                style="float:right;padding-left:2px ;transform: translateY(-9px); "
+                src="/assets/delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Morningsession_Thu">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-morning-session"
+              (click)="morningSession_Thu()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-morning-sessionActive"
+              (click)="morningSession_Thu()"
+            >
+              <div class="label-calendarActive">Session matinale</div>
+              <img
+                style="float:right;padding-left:2px;transform: translateY(-9px);  "
+                src="/assets/delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Morningsession_Fri">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-morning-session"
+              (click)="morningSession_Fri()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-morning-sessionActive"
+              (click)="morningSession_Fri()"
+            >
+              <div class="label-calendarActive">Session matinale</div>
+              <img
+                style="float:right;padding-left:2px;transform: translateY(-9px); "
+                src="/assets/delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Morningsession_Sat">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-morning-session"
+              (click)="morningSession_Sat()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-morning-sessionActive"
+              (click)="morningSession_Sat()"
+            >
+              <div class="label-calendarActive">Session matinale</div>
+              <img
+                style="float:right;padding-left:2px ; ;transform: translateY(-9px);"
+                src="/assets/delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Morningsession_Sun">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-morning-session"
+              (click)="morningSession_Sun()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-morning-sessionActive"
+              (click)="morningSession_Sun()"
+            >
+              <div class="label-calendarActive">Session matinale</div>
+              <img
+                style="float:right;padding-left:2px;transform: translateY(-9px);  "
+                src="/assets/delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--Midday  sessions-->
+
+      <div class="row">
+        <div class="col" [ngSwitch]="Middaysession_Mon">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-midday-session"
+              (click)="middaySession_Mon()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-midday-sessionActive"
+              (click)="middaySession_Mon()"
+            >
+              <div class="midday-label">Session midi</div>
+              <img
+                style="float:right;padding-left:2px  "
+                src="/assets/red_delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Middaysession_Tue">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-midday-session"
+              (click)="middaySession_Tue()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-midday-sessionActive"
+              (click)="middaySession_Tue()"
+            >
+              <div class="midday-label">Session midi</div>
+              <img
+                style="float:right;padding-left:2px  "
+                src="/assets/red_delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Middaysession_Wed">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-midday-session"
+              (click)="middaySession_Wed()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-midday-sessionActive"
+              (click)="middaySession_Wed()"
+            >
+              <div class="midday-label">Session midi</div>
+              <img
+                style="float:right;padding-left:2px "
+                src="/assets/red_delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Middaysession_Thu">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-midday-session"
+              (click)="middaySession_Thu()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-midday-sessionActive"
+              (click)="middaySession_Thu()"
+            >
+              <div class="midday-label">Session midi</div>
+              <img
+                style="float:right;padding-left:2px  "
+                src="/assets/red_delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Middaysession_Fri">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-midday-session"
+              (click)="middaySession_Fri()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-midday-sessionActive"
+              (click)="middaySession_Fri()"
+            >
+              <div class="midday-label">Session midi</div>
+              <img
+                style="float:right;padding-left:2px  "
+                src="/assets/red_delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Middaysession_Sat">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-midday-session"
+              (click)="middaySession_Sat()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-midday-sessionActive"
+              (click)="middaySession_Sat()"
+            >
+              <div class="midday-label">Session midi</div>
+              <img
+                style="float:right;padding-left:2px  "
+                src="/assets/red_delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col" [ngSwitch]="Middaysession_Sun">
+          <div class="content-calendar" *ngSwitchCase="true">
+            <button
+              class="btn btn-midday-session"
+              (click)="middaySession_Sun()"
+            >
+              <div class="label-calendar">+ Ajouter session</div>
+            </button>
+          </div>
+
+          <div class="content-calendarActive" *ngSwitchCase="false">
+            <button
+              class="btn btn-midday-sessionActive"
+              (click)="middaySession_Sun()"
+            >
+              <div class="midday-label">Session midi</div>
+              <img
+                style="float:right;padding-left:2px ;  "
+                src="/assets/red_delete.svg"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    <div class="yellow-container">
+      <img src="/assets/Info.svg" style="float:left;padding: 21px;" />
+      <p>
+        Ces sessions seront appliquées sur toute la période de disponibilité que
+        vous avez déterminé
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--
+
+    
+-->

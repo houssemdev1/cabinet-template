@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="d-flex">
+    <div class=" p-2">
+      <img class="cab-icon" src="/assets/dashboard/Group 15.8.svg" />
+    </div>
+    <div class=" p-2">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <button class="btn btn-outline-secondary input-btn" type="button">
+            <img class="search-icon" src="/assets/search.svg" />
+          </button>
+        </div>
+        <input
+          type="text"
+          class="form-control search-input"
+          placeholder=" Type here to search products"
+          aria-label=""
+          aria-describedby="basic-addon1"
+        />
+      </div>
+    </div>
+    <div class="ml-auto p-2">
+      <div class="btn-group">
+        <span>
+          <button
+            type="button"
+            data-toggle="dropdown"
+            aria-haspopup="false"
+            aria-expanded="false"
+          >
+            <span class="btn-content ">
+              Pseudo
+            </span>
+            <span>
+              <img src="/assets/dashboard/toggle.svg" />
+            </span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a [routerLink]="['/profile']">Profile</a></li>
+            <li><a href="#">Setting</a></li>
+          </ul>
+        </span>
+      </div>
+    </div>
+
+    <img class="circle-ellipse" src="/assets/dashboard/cercle-nav.svg" />
+  </div>
+</div>

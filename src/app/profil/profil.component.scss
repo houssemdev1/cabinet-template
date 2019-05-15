@@ -1,0 +1,187 @@
+@import "abstracts/variables";
+.left-container {
+  width: 350px;
+  height: 570px;
+  background: $Primary-white !important;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+.title-container {
+  background: $Secondary-black;
+  width: 350px;
+  height: 570px;
+}
+
+#right-container {
+  width: 730px;
+  height: 570px;
+  background: $Primary-white;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+
+.save-btn {
+  width: 394px;
+  background: $Primary-color;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 17px;
+  margin-top: 250px;
+}
+
+.add-btn {
+  width: 190px;
+  height: 50px;
+  background: $Progress-color;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.cancel-btn {
+  width: 190px;
+  height: 50px;
+  background: $Progress-color;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-top: 250px;
+}
+
+.container-fluid {
+  width: 100%;
+  min-height: 100vh !important;
+  background: $Secondary-background;
+}
+#Firstname,
+#Lastname,
+#select-form {
+  height: 52px;
+}
+
+#Bio {
+  height: 117px;
+}
+form {
+  width: 600px;
+  margin-top: 60px;
+}
+
+label {
+  margin-top: 20px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: 21px;
+  color: $Secondary-dark-1;
+}
+.active-item {
+  width: 6px;
+  float: left;
+}
+
+.active-option {
+  padding-top: 30px;
+  margin-left: 24px;
+  color: $Primary-color;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $nav-size;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+
+.content-btn-cancel {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Secondary-dark-2;
+}
+.content-btn-save {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+.title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $Secondary-black;
+  margin-left: 15px;
+  margin-top: 36px;
+}
+.bloc {
+  width: 600px;
+  height: 135px;
+  border: 1px dashed $Secondary-dark-2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 90px;
+}
+
+p {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  color: $Secondary-dark-2;
+}
+.d-flex {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+//new style
+.active {
+  border-left: 3px solid $Progress-color;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $nav-size;
+  color: $Primary-color;
+}
+//deactive option
+.deactiveOption {
+  margin-top: 18px;
+  margin-left: 25px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $nav-size;
+  color: $label-color;
+}
+//active option
+.activeOption {
+  margin-top: 18px;
+  margin-left: 25px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $nav-size;
+  color: $Primary-color;
+}
+//option style
+.option {
+  padding-top: 18px;
+}
+.left-container:first-child {
+  padding-top: 30px;
+}
+a {
+  text-decoration: none !important;
+  font-family: $Primary-font;
+  font-size: $nav-size;
+  color: $label-color;
+  padding-left: 25px;
+}

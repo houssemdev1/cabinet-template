@@ -1,0 +1,34 @@
+@import "abstracts/variables";
+
+.second-container {
+  transform: translateY(68px);
+}
+.container {
+  width: 1140px;
+}
+.form-control {
+  height: 52px;
+  border: 1px solid $deactive-color;
+}
+
+#area {
+  height: 123px;
+  border: 1px solid $deactive-color;
+}
+.second-col {
+  padding-left: 30px;
+}
+
+#description {
+  height: 123px;
+}
+
+.secondary-label {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: 21px;
+  color: $Secondary-dark-2;
+  display: block;
+}

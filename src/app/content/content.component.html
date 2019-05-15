@@ -1,0 +1,158 @@
+<div class="purple-section">
+  <div class="container">
+    <!--row for ellipse cards-->
+    <div class="row" style="padding-top: 100px;">
+      <img class="title-logo" src="/assets/white_logo.svg" />
+      <h3 class="white-title">Profitez en toute sécurité</h3>
+    </div>
+
+    <div class="row" style="margin-top: 53px;  padding-left:0px ">
+      <div
+        class="col-md-4"
+        *ngFor="let item of cardContent?.ellipseCard; let i = index"
+      >
+        <div *ngIf="i === 2; then content; else other_content">
+          here is ignored
+        </div>
+        <ng-template #content>
+          <div class="ellipse-card" style="margin-right:0px">
+            <img
+              style="padding-left:30px;padding-top:30px"
+              src="{{ item.Icon }}"
+            />
+            <h3 class="ellipse-title">{{ item.Title }}</h3>
+            <p class="ellipse-content" [innerHTML]="item.Text">
+              {{ item.Text }}
+            </p>
+          </div>
+        </ng-template>
+        <ng-template #other_content>
+          <div class="ellipse-card">
+            <img
+              style="padding-left:30px;padding-top:30px"
+              src="{{ item.Icon }}"
+            />
+            <h3 class="ellipse-title">{{ item.Title }}</h3>
+            <p class="ellipse-content" [innerHTML]="item.Text">
+              {{ item.Text }}
+            </p>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+
+    <!--row for lorem/cras/watshot cards-->
+    <div class="row" style="margin-top: 94px;">
+      <img class="title-logo" src="/assets/white_logo.svg" />
+      <h3 class="white-title">Aide et F.A.Q</h3>
+    </div>
+    <app-help-card></app-help-card>
+    <app-help-card></app-help-card>
+
+    <div class="row" style="margin-top: 132px;">
+      <img src="/assets/Logo.svg" />
+      <h3 class="title-purple">Un plus grand choix de cabinets en 2019</h3>
+    </div>
+    <!--row for "lodging" cards-->
+    <div class="row" style="margin-top: 69px;padding-left:0px">
+      <div class="col-md-4">
+        <div class="card  card bg-transparent border-0" style="width:355px;">
+          <img src="/assets/Group 27.svg" class="img-responsive" />
+          <div class="card-img-overlay">
+            <h5 class="picture-title">LOGEMENTS CABINET</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card bg-transparent border-0">
+          <img src="/assets/Group 27.svg" class="img-responsive" />
+          <div class="card-img-overlay">
+            <h5 class="picture-title">LOGEMENTS CABINET</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card  card bg-transparent border-0">
+          <img src="/assets/Group 27.svg" />
+          <div class="card-img-overlay">
+            <h5 class="picture-title">LOGEMENTS CABINET</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row " style="margin-top:132px;margin-bottom:85px">
+      <img class="title-logo" src="/assets/Logo.svg" />
+      <h3 class="title-purple">Temoignage</h3>
+    </div>
+
+    <div class="row" style="padding-left:0px">
+      <div class="col-md-4">
+        <div class="testimony-card">
+          <div class="circle-ellipse">
+            <img src="/assets/circle_ellipse.svg" />
+          </div>
+          <div class="content-card">
+            <h3 class="testimony-title">Cosmin Negoita</h3>
+            <h4 class="subtitle">Art director</h4>
+            <img
+              src="/assets/format_quote.svg"
+              style="float:left;padding-top: 10px;padding-right:10px"
+            />
+            <p class="testimony-content">
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do <br />
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="testimony-card">
+          <div class="circle-ellipse">
+            <img src="/assets/circle_ellipse.svg" />
+          </div>
+          <div class="content-card">
+            <h3 class="testimony-title">Cosmin Negoita</h3>
+            <h4 class="subtitle">Art director</h4>
+            <img
+              src="/assets/format_quote.svg"
+              style="float:left;padding-top: 10px;padding-right:10px"
+            />
+            <p class="testimony-content">
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do <br />
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimony-card">
+          <div class="circle-ellipse">
+            <img src="/assets/circle_ellipse.svg" />
+          </div>
+          <div class="content-card">
+            <h3 class="testimony-title">Cosmin Negoita</h3>
+            <h4 class="subtitle">Art director</h4>
+            <img
+              src="/assets/format_quote.svg"
+              style="float:left;padding-top: 10px;padding-right:10px"
+            />
+            <p class="testimony-content">
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do <br />
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-testimony></app-testimony>
+</div>

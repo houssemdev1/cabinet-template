@@ -1,0 +1,177 @@
+@import "abstracts/variables";
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+@import "../node_modules/angular-calendar/scss/angular-calendar.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+//font style
+@font-face {
+  font-family: Montserrat;
+  src: url(/assets/font/Montserrat-Light.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(/assets/font/Quicksand-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Rubik;
+  src: url(/assets/font/Rubik-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+$Primary-font: Quicksand;
+
+//style of white titles
+.title-white {
+  color: $Primary-white;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 30px;
+  padding-top: $label-size;
+}
+
+//style for simple paragraph
+.simple-text {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  display: block;
+  color: $label-color;
+}
+/*************/
+.choice {
+  border: 2px solid $Progress-color !important;
+} /**************/
+//style for add button
+.add-button {
+  width: 255px;
+  height: 50px;
+  background: linear-gradient(119.05deg, #8f68fc 0%, #292984 100.61%);
+  border-radius: 5%;
+}
+//gray section for outlet
+.content-section {
+  background: $Secondary-background;
+  min-height: 750px;
+}
+
+//style for button content
+.content-btn {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: $label-size;
+  text-transform: capitalize;
+  text-align: center;
+  color: $Primary-white;
+  border-radius: 5px;
+}
+
+//style for global container
+.globalcontent {
+  width: 340px;
+  height: 104px;
+  background: $Primary-white;
+}
+//style for logo title
+.title-logo {
+  float: left;
+}
+//style for purple title
+.title-purple {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: normal;
+  padding-left: 5px;
+  padding-top: 5px;
+  color: $Primary-color;
+}
+//style for datepicker
+.theme-green .bs-datepicker-head {
+  background-color: $Primary-white !important;
+}
+.bs-datepicker-head button {
+  background: $Secondary-black;
+}
+.title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $title-size;
+  text-align: center;
+  color: $Secondary-dark-1;
+  margin-top: 95px;
+}
+
+.subtitle {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $subtitle-size;
+  text-align: center;
+  color: $label-color;
+}
+.btn-name {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $Secondary-dark-1;
+  line-height: 1.6 !important;
+}
+input::placeholder {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11px;
+  color: $Secondary-dark-1;
+  opacity: 0.5;
+}
+
+.choice-btn {
+  height: $custom-height;
+  width: $custom-width;
+  background: $Primary-white !important;
+  border: 1px solid rgba(213, 212, 217, 0.5) !important;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+//progress bar
+.progress-bar {
+  display: flex;
+  background-color: $Progress-color !important;
+}
+.progress-section,
+.progress {
+  height: 6px !important;
+  z-index: -1 !important;
+}
+//style for profile setting
+#right-container {
+  width: 730px;
+  height: 570px;
+  background: $Primary-white;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+.left-container {
+  width: 350px;
+  height: 570px;
+  background: $Primary-white;
+  border-radius: 5px;
+  margin-top: 33px;
+}

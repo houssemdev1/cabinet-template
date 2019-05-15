@@ -1,0 +1,30 @@
+<div class="footer">
+  <div class="container">
+    <div class="d-flex">
+      <div class="mr-auto p-2">
+        <a href="#"> <div class="footer-primarylink">Sauvegarder</div></a>
+        <a href="#">
+          <div class="footer-secondarylink">Pour terminer plus tard</div></a
+        >
+      </div>
+      <div class="p-2">
+        <button
+          class="btn btn-return"
+          [disabled]="isDesableBack == 0"
+          (click)="backStep()"
+        >
+          <div class="content-btn-return">retour</div>
+        </button>
+      </div>
+      <div class="p-2">
+        <button
+          class="btn btn-next"
+          (click)="nextStep()"
+          [disabled]="isDesableNext == 0"
+        >
+          <div class="content-btn-next">suivant</div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

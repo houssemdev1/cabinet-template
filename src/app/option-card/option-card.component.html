@@ -1,0 +1,15 @@
+<div class="col-sm-4 ">
+  <div class="card">
+    <img class="img-card" src="/assets/{{ Icon }}" />
+    <div class="card-body">
+      <!--directive condition to apply a custom style on second icon-->
+      <div *ngIf="CardNum == 2; else elseBlock">
+        <div class="number-icone2"><img src="/assets/{{ Num }}" /></div>
+      </div>
+      <ng-template #elseBlock>
+        <div class="number-icone1"><img src="/assets/{{ Num }}" /></div>
+      </ng-template>
+      <h5 class="Title">{{ Title }}</h5>
+    </div>
+  </div>
+</div>

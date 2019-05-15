@@ -1,0 +1,27 @@
+@import "abstracts/variables";
+
+textarea::placeholder {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11px;
+
+  color: $Secondary-dark-1;
+
+  opacity: 0.5;
+}
+
+.content-btn {
+  float: left;
+}
+label {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+
+  color: #3a3768;
+  padding-top: 5px;
+}

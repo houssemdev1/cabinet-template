@@ -1,0 +1,121 @@
+@import "abstracts/variables";
+
+.btn-time {
+  background: $Primary-white;
+  border: 1px solid rgba(213, 212, 217, 0.5);
+  box-sizing: border-box;
+
+  border-radius: 4px;
+}
+
+.content-btn {
+  float: left;
+}
+p {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: 2;
+  padding-top: 23px;
+  color: $Secondary-dark-2;
+}
+
+.custom-container {
+  width: 445px;
+  height: 60px;
+  background: $Primary-white;
+}
+.yellow-container {
+  background: rgba(243, 207, 78, 0.05);
+  /* Warning */
+  border: 1px solid #f3cf4e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 1200px;
+  height: 80px;
+  margin-top: 37px;
+}
+
+.container-fluid {
+  width: 1200px;
+  background: $Primary-white;
+  border-radius: 5px;
+  margin-top: 60px;
+  height: 200px;
+}
+.btn-morning-session {
+  background: rgba(58, 55, 104, 0.1);
+  mix-blend-mode: normal; /* Tertiary/Light */
+  border: 1px dashed #9997b1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 140px;
+  height: 34px;
+}
+.btn-midday-session {
+  background: rgba(58, 55, 104, 0.1);
+  mix-blend-mode: normal; /* Tertiary/Light */
+  border: 1px dashed #9997b1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 140px;
+  height: 34px;
+}
+.btn {
+  margin-top: 25px !important;
+}
+.label-calendar {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-size: 13px;
+  line-height: normal;
+  text-align: center;
+  color: $Secondary-dark-1;
+}
+
+.day-calendar {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  padding-top: 22px;
+  color: $Secondary-dark-1;
+}
+
+.label-calendarActive {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: normal;
+  color: $Primary-color;
+  float: left;
+  transform: translate(-5px, 4px);
+}
+.midday-label {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: normal;
+  color: red;
+  float: left;
+}
+.btn-morning-sessionActive {
+  background: rgba($Primary-color, 0.08);
+  mix-blend-mode: normal;
+
+  border-radius: 4px;
+  width: 140px;
+  height: 34px;
+}
+.btn-midday-sessionActive {
+  background: rgba($Red-color, 0.08);
+  mix-blend-mode: normal;
+
+  border-radius: 4px;
+  width: 140px;
+  height: 34px;
+}

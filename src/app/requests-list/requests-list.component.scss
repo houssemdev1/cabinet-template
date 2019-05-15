@@ -1,0 +1,47 @@
+@import "abstracts/variables";
+.custom-row {
+  height: 50px;
+  background: $white;
+  margin-top: 10px;
+}
+
+.primary-label {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  /* identical to box height, or 150% */
+  color: $Secondary-black;
+  line-height: 3.5;
+}
+.secondary-label {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  /* identical to box height */
+  color: $label-color;
+  padding-left: 3px;
+}
+.subtitle {
+  font-family: $Primary-font;
+  font-size: 16px;
+  color: $label-color;
+}
+.title {
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Secondary-black;
+}
+.gray-circle {
+  background: $deactive-color;
+  opacity: 0.3;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.container {
+  padding-right: 0px;
+}
+.vector-btn {
+  height: 50px;
+}

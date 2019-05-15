@@ -1,0 +1,21 @@
+<div class="container step-items-container">
+  <div
+    class="step-item"
+    *ngFor="let item of steps; let i = index"
+    [ngClass]="{
+      active: step == i + 1,
+      done: step > i + 1
+    }"
+  >
+    <div class="step-item-number ">{{ i + 1 }}</div>
+    <div class="step-info">
+      <div class="step-item-title">{{ item.title }}</div>
+      <div class="step-item-subtitle">
+        {{ item.subtitle }}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bodyy">
+  <router-outlet></router-outlet>
+</div>

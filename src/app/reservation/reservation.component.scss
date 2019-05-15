@@ -1,0 +1,159 @@
+@import "abstracts/variables";
+
+.applicant-container {
+  background: $white;
+  width: 730px;
+  height: 202px;
+}
+
+.reservation-container {
+  background: $white;
+  width: 720px;
+  height: 429px;
+}
+.card-header {
+  background: $white;
+}
+.card-title {
+  width: 360px;
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Secondary-black;
+}
+.number {
+  display: block;
+  text-align: center;
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Primary-color;
+}
+.secondary-title {
+  font-family: $Primary-font;
+  font-weight: 500;
+  font-size: $label-size;
+  color: $label-color;
+}
+.big-circle {
+  width: 96px;
+  height: 96px;
+  background: $deactive-color;
+  border: 3px solid $Primary-white;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.1);
+  border-radius: 48px;
+  float: left;
+  margin-right: 35px;
+}
+.purple-circle {
+  width: 18px;
+  height: 18px;
+  background: $Primary-color;
+  border-radius: 50px;
+  float: left;
+  margin-right: 5px;
+}
+.name {
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Secondary-black;
+}
+.purple-name {
+  font-family: $Primary-font;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $Progress-color;
+}
+.secondary-paragraph {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: rgba(31, 32, 65, 0.5);
+}
+.signal-btn {
+  width: 350px;
+  height: 58px;
+  background: $secondary-danger;
+}
+.content-signal-btn {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+.right-container,
+.right-card {
+  margin-top: 30px;
+  width: 350px;
+}
+.title {
+  margin-top: 0px !important;
+}
+.card {
+  width: 730px;
+}
+
+.return-link {
+  margin-left: 10px;
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Secondary-black;
+}
+.return-btn {
+  margin-right: 10px;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  background: $deactive-color;
+}
+.return-link {
+  margin-left: 10px;
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Secondary-black;
+}
+.reservation-date {
+  font-family: $Primary-font;
+
+  font-size: $label-size;
+
+  color: rgba(31, 32, 65, 0.7);
+}
+.right-price {
+  margin-top: 10px;
+  font-family: $Primary-font;
+  font-size: 12px;
+  color: rgba(31, 32, 65, 0.5);
+}
+.session-price {
+  margin-top: 10px;
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: rgba(31, 32, 65, 0.5);
+}
+.session-price:first-child {
+  margin-top: 15px;
+}
+.total {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: rgba(31, 32, 65, 0.5);
+  font-weight: bold;
+}
+
+.return-bloc {
+  padding-top: 30px;
+}
+.card-text {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: $label-color;
+}
+.card-title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: $Secondary-black;
+}

@@ -1,0 +1,90 @@
+@import "abstracts/variables";
+
+.container {
+  width: 540px;
+  transform: translateY(130px);
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  padding-top: 54px;
+  font-family: $Primary-font;
+  color: $Primary-1;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+}
+
+h3 {
+  font-family: $Primary-font;
+  color: $Secondary-dark-2;
+  color: $Primary-1;
+  font-size: 16px;
+}
+
+.form-control {
+  height: 52px;
+}
+
+.step1 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  padding-top: 13px;
+  color: #3a3768;
+}
+.step2 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #3a3768;
+  padding-top: 13px;
+}
+.subtitle-step2,
+.subtitle-step1 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #9997b1;
+}
+
+label {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: 21px;
+
+  color: $Secondary-dark-2;
+}
+.btn-valid {
+  background: $Primary-color;
+  width: 240px;
+  height: $Input-height;
+  border-radius: 5px;
+}
+.btn-content {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}

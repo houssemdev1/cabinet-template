@@ -1,0 +1,259 @@
+@import "abstracts/variables";
+
+.container-fluid {
+  width: 100%;
+  min-height: 220vh;
+  background: $Secondary-background;
+}
+.opinion-container {
+  width: 730px;
+  height: 175px;
+  background: $Primary-white;
+  border-radius: 4px;
+}
+.description-card {
+  width: 730px;
+  height: 225px;
+  background: $Primary-white;
+  border-radius: 4px;
+}
+.green-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background: $Secondary-normal;
+  line-height: 2.5;
+  text-align: center;
+  margin-right: -10px;
+  margin-top: 10px;
+}
+.gray-bar {
+  background: rgba(31, 32, 65, 0.1);
+  height: 1px;
+  width: 670px;
+  margin-top: 15px;
+}
+.primary-title {
+  font-family: $Primary-font;
+  font-weight: 500;
+  font-size: 26px;
+  color: $Secondary-black;
+  margin-left: -10px;
+}
+.secondary-title {
+  font-family: $Primary-font;
+  font-weight: normal;
+  font-size: 16px;
+
+  color: $Secondary-dark-2;
+  margin-left: -10px;
+}
+.opinion-info {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  text-align: right;
+  color: $Secondary-dark-2;
+  margin-top: 15px;
+}
+.intern-container {
+  width: 670px;
+  margin: 25px;
+}
+.card-header:first-child {
+  background: $Primary-white;
+}
+.map-card {
+  margin-top: 0px;
+}
+.card {
+  border: 0px;
+  margin-top: 25px;
+}
+.card-text {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  text-align: justify;
+  color: $Secondary-dark-2;
+}
+.card-header {
+  font-family: $Primary-font;
+  font-size: 18px;
+  color: $Secondary-dark-1;
+}
+
+.input-label {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: $Secondary-dark-2;
+}
+.position-bloc {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: $Secondary-dark-1;
+  margin-left: 15px;
+}
+.gray-circle {
+  margin-left: -15px;
+  width: 20px;
+  height: 20px;
+  background: $Primary-gray;
+  border-radius: 50px;
+  float: left;
+  margin-right: 12px;
+}
+.profession-name {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: $Secondary-dark-2;
+}
+.description {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  text-align: justify;
+  color: rgba(31, 32, 65, 0.5);
+}
+.list-circle {
+  background: $Dark-blue;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 4px;
+}
+.list-item {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: $Dark-blue;
+  line-height: 0;
+}
+
+.title-list {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  text-align: justify;
+  color: $Secondary-black;
+}
+ul {
+  padding-left: 15px;
+}
+.big-circle {
+  background: $Secondary-background;
+  border: 2px solid $Primary-white;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.1);
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
+.comment-container {
+  width: 615px;
+  height: 39px;
+  margin-left: 17px;
+}
+.opinion-infos {
+  font-family: $Primary-font;
+  color: $Secondary-dark-2;
+}
+
+.comment-row {
+  padding-top: 66px;
+}
+.comment-title {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  color: $Secondary-black;
+}
+
+///right block-------------
+.right-container {
+  width: 350px;
+  background: $Primary-white;
+  height: 175px;
+  margin-top: 25px;
+}
+
+.btn-reserve {
+  width: 300px;
+  height: 58px;
+  background: $Secondary-green-2;
+  margin-top: 18px;
+  opacity: 2;
+}
+
+.btn-content {
+  font-family: $Primary-font;
+  font-size: $label-size;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+.price {
+  font-family: $Primary-font;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: $Secondary-black;
+}
+.inner-container {
+  width: 300px;
+  padding-top: 25px;
+  height: 58px;
+  margin-left: 25px;
+}
+.pictures-card {
+  width: 350px;
+  height: 280px;
+}
+
+.small-picture {
+  padding-right: 13px;
+}
+
+.pictures-list {
+  margin-left: 10px;
+}
+.card-img-top {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.card {
+  border-radius: 4px;
+}
+.disponibility-card,
+.informations-card {
+  width: 350px;
+}
+.col {
+  padding-left: 14px;
+}
+.caracteristics-card {
+  width: 730px;
+  margin-left: 15px;
+}
+.comments-card {
+  width: 730px;
+  height: 540px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+input {
+  background: $white;
+  /* White/dark */
+  border: 1px solid $deactive-color;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.result {
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Secondary-black;
+  padding-left: 15px;
+  padding-top: 27px;
+}

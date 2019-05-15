@@ -1,0 +1,206 @@
+@import "abstracts/variables";
+
+.gray-section {
+  width: 100%;
+  height: 70px;
+  background: $deactive-color;
+}
+
+%custom-circle {
+  background: rgba(94, 32, 229, 0.1);
+  border: 1.5px solid $Primary-color;
+  box-sizing: border-box;
+}
+
+.custom-cercle2 {
+  @extend %custom-circle;
+  border-radius: 50px;
+  width: 26px;
+  height: 26px;
+}
+
+.custom-cercle12 {
+  @extend %custom-circle;
+  border-radius: 12px;
+  width: 37px;
+  height: 25px;
+}
+
+.custom-content12 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  color: $Primary-color;
+  padding-top: 2px;
+}
+
+.nav-container {
+  background: #e8e8eb;
+}
+.custom-content2 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  color: $Primary-color;
+  padding-top: 2px;
+}
+a {
+  text-decoration: none !important;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-size: $text-size;
+  padding-left: 10px;
+  color: $label-color;
+}
+.cab-label {
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Secondary-black;
+}
+
+.last-link {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  text-align: right;
+  float: right;
+  color: $Step-color;
+  padding-left: 10px;
+}
+.yellow-container {
+  width: 1110px;
+  height: 80px;
+  background: rgba(243, 207, 78, 0.05);
+  margin-top: 40px;
+  border: 1px solid $Secondary-yellow;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.my-cab {
+  margin-left: 15px;
+  width: 825px;
+  height: 200px;
+  background: $Primary-white;
+}
+.body-section {
+  height: 100vh;
+  width: 100%;
+  background: $Secondary-background;
+  position: fixed;
+}
+.picture-title {
+  font-family: $Primary-font;
+  font-size: 20px;
+  color: $Secondary-dark-1;
+  padding-top: 25px;
+}
+
+.picture-subtitle {
+  font-family: $Primary-font;
+  font-size: 16px;
+  color: $label-color;
+}
+table {
+  width: 350px;
+
+  th {
+    padding: 1.75rem;
+  }
+
+  &-header {
+  }
+}
+
+.header-table {
+  font-family: $Primary-font;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+
+  padding-top: 25px;
+  padding-left: 17px;
+  padding-right: 17px;
+  color: $Secondary-black;
+}
+
+.body-table {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  color: $Secondary-dark-2;
+}
+.right-btn {
+  width: 263px;
+  height: 58px;
+  background: $Primary-color;
+  margin-left: 25px;
+}
+.btn-content {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+a {
+  text-decoration: none;
+}
+.link {
+  color: $Secondary-green;
+}
+.yellow-title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  padding-top: 28px;
+  color: $Secondary-yellow;
+}
+p {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: 21px;
+  padding-top: 28px;
+  color: $Placeholder-color;
+}
+.secondary-title {
+  margin-left: 15px;
+  font-family: $Primary-font;
+  color: $Secondary-dark-1;
+}
+//**********************
+h2 {
+  font-family: $Primary-font;
+  font-size: 20px;
+  margin-left: 15px;
+  color: $Secondary-black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.location-label {
+  font-family: $Primary-font;
+  font-size: 16px;
+  color: $Secondary-black;
+}

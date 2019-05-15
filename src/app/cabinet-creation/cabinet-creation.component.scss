@@ -1,0 +1,59 @@
+@import "abstracts/variables";
+
+button {
+  height: $custom-height;
+  width: $custom-width;
+  background: $Primary-white;
+  border: 1px solid rgba(213, 212, 217, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.btn {
+  margin-top: 25px;
+}
+
+.btn-name {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  text-transform: uppercase;
+  padding-left: 15px;
+  color: $Secondary-black;
+}
+
+.content-btn {
+  float: left;
+}
+.gray-section {
+  background: $Secondary-gray;
+  height: 1px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.choice {
+  border: 2px solid $Primary-color;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+img {
+  float: left;
+}
+
+input {
+  height: 50px;
+  margin-top: 30px;
+}
+.input-row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.choice-row {
+  padding-left: 0px;
+  margin-right: -80px;
+}

@@ -1,0 +1,89 @@
+//style of Header Section
+@import "abstracts/variables";
+.first-section {
+  width: 100%;
+  height: 620px;
+  background-image: url(/assets/background1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  position: absolute;
+}
+
+//style of navbar
+.navbar {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+//style of inscription button
+.btn-inscription {
+  width: 160px;
+  height: 50px;
+  background: linear-gradient(119.05deg, #8f68fc 0%, #292984 100.61%);
+  border-radius: 5px;
+}
+
+//Custom style for nabar items
+.nav-item {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: $label-size;
+  text-transform: capitalize;
+  color: #2a225a !important;
+}
+
+//style for list of navbar links
+li {
+  padding-right: 40px;
+}
+
+//custom style of nabar links
+a {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $label-size;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #2a225a;
+  text-decoration: none;
+}
+
+//style for text below the title
+.simple-text {
+  padding-top: 18px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+
+  color: $Secondary-dark-2;
+}
+
+//custom style for add button
+.btn-ajout {
+  margin-top: 32px;
+}
+
+//style for second section
+.second-section {
+  background: $Secondary-background;
+  position: relative;
+  margin-top: 200px;
+  height: 300vh;
+}
+
+.purple-title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: normal;
+  padding-left: 5px;
+  padding-top: 5px;
+  color: $Primary-color;
+}

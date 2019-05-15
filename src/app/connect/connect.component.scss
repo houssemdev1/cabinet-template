@@ -1,0 +1,155 @@
+@import "abstracts/variables";
+
+.container {
+  width: 410px;
+  transform: translateY(30%);
+}
+
+.form-control {
+  width: 380px;
+  height: 52px;
+}
+
+h2 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-1;
+}
+
+h4 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-2;
+  float: left;
+}
+
+.email-label,
+.password-label {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: $Secondary-dark-2;
+}
+
+.btn-subscribe {
+  width: 380px;
+  height: 58px;
+  background: $Primary-color;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn-google,
+.btn-linkedin {
+  width: 186px;
+  height: 58px;
+  background: $Primary-1;
+  border-radius: 5px;
+}
+
+.btn-linkedin {
+  margin-left: 8px;
+}
+
+.btn-content {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  color: #fcfcfc;
+}
+.question-label {
+  margin-top: 30px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  color: $Secondary-dark-2;
+}
+.SignUp-label {
+  margin-top: 30px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: normal;
+  text-decoration-line: underline;
+  color: #8f68fc;
+}
+
+form {
+  margin-top: 34px;
+}
+//style of input button
+#button-addon2 {
+  background: white;
+  border: none;
+}
+
+.or_icon {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none !important;
+}
+
+.row {
+  padding-top: 30px;
+}
+
+//***********style for checkbox input**********//
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: $Primary-white;
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+  line-height: 20px;
+  /* border-color: #007bff; */
+  background-color: $Primary-color;
+}
+
+.custom-control-label::after {
+  top: 0.3rem;
+  left: -1.4rem;
+}
+.custom-control-label::before {
+  height: 20px;
+  width: 20px;
+}
+.custom-control-label {
+  font-family: $Primary-font;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: 17px; /* identical to box height */
+  color: $Secondary-dark-1;
+  line-height: 1.8;
+}
+.forget-link {
+  font-family: $Primary-font;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: 17px; /* identical to box height */
+  color: $Primary-color;
+  line-height: 1.8;
+}
+a {
+  text-decoration: none !important;
+  color: $Primary-color;
+}
+img {
+  margin-top: 24px !important;
+}

@@ -1,0 +1,36 @@
+@import "abstracts/variables";
+
+button {
+  height: $custom-height;
+  width: $custom-width;
+  background: $Primary-white;
+  border: 1px solid rgba(213, 212, 217, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.btn {
+  margin-top: 25px;
+}
+
+.choice {
+  border: 2px solid $Primary-color;
+}
+.btn-icon {
+  float: left;
+}
+
+
+
+
+.secondary-title {
+  padding-left: 15px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $Primary-color;
+}

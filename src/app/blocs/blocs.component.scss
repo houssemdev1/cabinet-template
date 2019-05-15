@@ -1,0 +1,15 @@
+@import "abstracts/variables";
+
+::ng-deep .step-item-title {
+  font-family: $Primary-font;
+}
+//progress bar************************
+.mat-progress-bar {
+  height: 6px;
+}
+::ng-deep .mat-progress-bar-fill::after {
+  background: $Progress-color !important;
+}
+::ng-deep .mat-progress-bar-buffer {
+  background: #e8e8eb !important;
+}

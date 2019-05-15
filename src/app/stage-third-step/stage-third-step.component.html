@@ -1,0 +1,69 @@
+
+
+<div class="content-section">
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="title">
+        Photos de cabinet
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="subtitle">
+        Liste des professions pouvant exercer au sein du cabinet
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div
+      ng2FileDrop
+      (onFileDrop)="onFileSelected($event)"
+      [ngClass]="{ 'nv-file-over': hasBaseDropZoneOver }"
+      (fileOver)="fileOverBase($event)"
+      [uploader]="uploader"
+      class="well my-drop-zone"
+    >
+      <div class="container flex-container">
+        <div class="d-flex">
+          <div class="p-2" style="margin-top:40px">
+            <img src="/assets/Group 6.3.svg" alt="" style="float:left" />
+          </div>
+          <div class="p-2" style="margin-top:42px">
+            <p>
+              Faites glisser les photos ici <br />ou cliquez sur le boutton
+              “ajouter”
+            </p>
+          </div>
+
+          <div class="ml-auto p-2">
+            <label for="file-upload" class="custom-file-upload">
+              <i class="fa fa-cloud-upload"></i>Ajouter
+            </label>
+            <input
+              id="file-upload"
+              class="file-input"
+              type="file"
+              (change)="onSelectFile($event)"
+              multiple
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let url of urls">
+        <div class="selected-item">
+          <div class="remove-btn">
+            <button class="btn  remove-btn" (click)="onDelete(url)">
+              <div class="icon-remove">x</div>
+            </button>
+          </div>
+          <img class="image" [src]="url" height="200" width="200" /><br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div></div>
+</div>

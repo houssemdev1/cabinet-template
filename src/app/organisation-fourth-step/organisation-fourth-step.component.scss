@@ -1,0 +1,66 @@
+@import "abstracts/variables";
+
+button {
+  height: $custom-height;
+  width: $custom-width;
+  background: $Primary-white;
+  border: 1px solid rgba(213, 212, 217, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.btn-time {
+  background: $Primary-white;
+  border: 1px solid rgba(213, 212, 217, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.content-btn {
+  float: left;
+}
+
+label {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: 21px;
+
+  color: $Secondary-dark-1;
+  margin-left: 15px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.content-btn-time {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+
+  color: #3a3768;
+}
+
+.btn {
+  margin-top: 25px;
+}
+
+//*******/********************************************//
+::ng-deep .mat-form-field-flex {
+  display: block;
+  border-radius: 4px;
+  border-bottom: 0px;
+  position: relative;
+  flex: auto;
+  min-width: 0;
+  background: $Primary-white;
+  width: 683px !important;
+}
+
+::ng-deep .mat-calendar-body-label {
+  visibility: hidden;
+}

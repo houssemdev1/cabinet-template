@@ -1,0 +1,77 @@
+@import "abstracts/variables";
+//style of purple section
+.panel-section {
+  position: static;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(289.39deg, #8f68fc 0.11%, #292984 100.8%);
+}
+
+// container style
+.container {
+  padding-top: 170px;
+}
+
+.col {
+  padding-left: 0px;
+}
+//style of titles in grid-footer
+.title-footer {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: $label-size;
+  text-transform: uppercase;
+  color: $Primary-white;
+}
+//style of text in grid-footer
+.text-footer {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: $label-size;
+  color: $Primary-white;
+  opacity: 0.7;
+}
+
+//style of Cocabinet icon
+.img-footer {
+  height: 40px;
+  margin-bottom: 34px;
+}
+//style of input button
+#button-addon2 {
+  background: $Primary-white;
+  border: none;
+}
+
+//style of text bellow the Cocabinet icon
+.content-text {
+  width: 255px;
+}
+
+//Style of subscribe column
+.subscribe {
+  width: 255px;
+}
+
+//Style of navigation column
+.navigation {
+  width: 83px;
+}
+//Style of about us column
+.aboutus {
+  width: 86px;
+}
+
+//Style of support column
+.support {
+  width: 103px;
+}
+
+//
+.col {
+  padding-right: 0px;
+}

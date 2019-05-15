@@ -1,0 +1,50 @@
+@import "abstracts/variables";
+//style for row
+.row {
+  margin-top: 62px;
+}
+
+//style for card
+.card {
+  width: 255px;
+}
+
+//style for card title
+.card-title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: normal;
+  letter-spacing: -0.01em;
+  padding-top: 21px;
+  color: #3a3768;
+}
+
+//style for card details
+.cabinet-details {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: $Secondary-dark-2
+}
+
+//style for cabinet picture
+.cabinet {
+  position: relative;
+}
+
+//style for star icon
+.star {
+  padding-left: 185px;
+  padding-top: 27px;
+  position: absolute;
+}
+//style for euro icon
+.euro {
+  float: left;
+  position: absolute;
+  padding-top: 27px;
+}

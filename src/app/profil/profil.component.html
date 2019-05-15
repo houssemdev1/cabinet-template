@@ -1,0 +1,55 @@
+<app-dashboard-nav></app-dashboard-nav>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="title">
+        Mon Profil
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="container left-container">
+          <div class="row option ">
+            <a
+              routerLinkActive="active "
+              routerLink="/profile/informations-generales"
+              >Information générales</a
+            >
+          </div>
+          <div class="row option ">
+            <a
+              routerLinkActive="active"
+              routerLink="/profile/informations-professioneles"
+              >information professionnelles</a
+            >
+          </div>
+          <div class="row option ">
+            <a routerLinkActive="active" routerLink="/profile/documents"
+              >Documents</a
+            >
+          </div>
+          <div class="row option ">
+            <a routerLinkActive="active" routerLink="/profile/payement"
+              >Paiements</a
+            >
+          </div>
+          <div class="row option ">
+            <a routerLinkActive="active" routerLink="/profile/securité"
+              >Sécurité</a
+            >
+          </div>
+          <div class="row option ">
+            <a routerLinkActive="active" routerLink="/profile/notifications"
+              >Notifications</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

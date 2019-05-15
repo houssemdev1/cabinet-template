@@ -1,0 +1,69 @@
+@import "abstracts/variables";
+
+.container {
+  width: 353px;
+  transform: translateY(30%);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+.step1 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-1;
+}
+.step2 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-1;
+}
+
+.primary-title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-1;
+}
+
+.secondary-title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  padding-top: 20px;
+  color: $Secondary-dark-2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Secondary-dark-1;
+}

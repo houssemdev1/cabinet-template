@@ -1,0 +1,281 @@
+@import "abstracts/variables";
+
+.header-title {
+  padding-top: 5px;
+}
+.header-section {
+  height: 100px;
+  position: fixed;
+}
+h2 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+
+  letter-spacing: 0.2px;
+  color: $Step-color;
+}
+h3 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11px;
+
+  color: $Secondary-dark-1;
+
+  opacity: 0.5;
+}
+
+h6 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: 21px;
+  margin-top: 17px;
+  color: $Secondary-dark-1;
+}
+
+button {
+  height: $custom-height;
+  width: $custom-width;
+  background: $Primary-white;
+  border: 1px solid rgba(213, 212, 217, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.progress-section,
+.progress {
+  height: 6px;
+  z-index: -1 !important;
+}
+
+.progress-bar {
+  display: flex;
+  background-color: $Progress-color;
+}
+.title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $title-size;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-1;
+  margin-top: 95px;
+}
+
+.subtitle {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $subtitle-size;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-2;
+}
+
+label {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-left: 15px;
+  color: #3a3768;
+  padding-top: 5px;
+}
+
+.content-btn {
+  float: left;
+}
+.gray-section {
+  background: #dee4eb;
+  height: 1px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.secondary-title {
+  padding-left: 15px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: $Primary-color;
+}
+
+#custom-content {
+  margin-top: 86px;
+  border-style: dashed;
+  background: #ffffff;
+  border-color: #9997b1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 135px;
+}
+p {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  padding-top: 23px;
+  color: $Secondary-dark-2;
+}
+.gray-btn {
+  background: #e8e8eb;
+  border-radius: 4px;
+}
+
+.secondary-title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  color: $Secondary-dark-1;
+  padding-top: 107px;
+  padding-left: 0px;
+}
+.content-btn {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+  color: $Primary-color;
+  padding-left: 30px;
+}
+.custom-container {
+  width: 445px;
+  height: 60px;
+  background: $Primary-white;
+}
+.yellow-container {
+  background: rgba(243, 207, 78, 0.05);
+  /* Warning */
+  border: 1px solid #f3cf4e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 445px;
+}
+.secondary-btn {
+  width: 120px;
+  height: 40px;
+  transform: translateY(70px);
+  margin-left: 65px;
+}
+
+.container-text {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  color: $Secondary-dark-1;
+  float: left;
+  padding-top: 20px;
+  padding-right: 70px;
+  padding-left: 20px;
+}
+
+.edit-text {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $label-size;
+  line-height: normal;
+  text-decoration-line: underline;
+  color: $Dark-gray;
+  padding-top: 20px;
+}
+
+.euro-text {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  color: $Primary-color;
+  float: right;
+  margin-left: 1px;
+}
+
+.footer-primarylink,
+a {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-1;
+  padding-top: 27px;
+}
+
+.footer-secondarylink,
+a {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $Secondary-dark-1;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+
+.btn-next {
+  width: 264px;
+  height: 54px;
+  background: $Primary-1;
+}
+.footer {
+  height: 100px;
+  background: $Primary-white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.btn-return {
+  width: 160px;
+  height: 54px;
+  background: $Progress-color;
+}
+.content-btn-return {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Secondary-dark-1;
+}
+.content-btn-next {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Primary-white;
+}
+.btn {
+  margin-top: 25px;
+}

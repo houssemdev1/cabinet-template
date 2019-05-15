@@ -1,0 +1,80 @@
+@import "abstracts/variables";
+
+p {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  color: $Secondary-dark-2;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  height: 60px;
+  width: 206px;
+  margin-top: 30px;
+  background: #e8e8eb;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  color: $label-color;
+}
+
+//***********************************style for file drop*********************************
+.my-drop-zone {
+  margin-top: 86px;
+  border: dashed;
+
+  background: $Primary-white;
+  border-color: $Secondary-dark-2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  min-height: 140px;
+}
+
+.d-flex {
+  margin-left: 46px;
+  margin-right: 46px;
+}
+.remove-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  background: $Primary-color;
+  border: none;
+
+  opacity: 0;
+}
+
+.icon-remove {
+  font-size: 10px;
+  color: $Primary-white;
+  line-height: 45%;
+  margin-right: 10px;
+}
+.selected-item:hover .image {
+  opacity: 0.3;
+}
+.selected-item:hover .remove-btn {
+  opacity: 1;
+}
+
+.remove-btn {
+  position: relative;
+  z-index: 2 !important;
+}
+.image {
+  margin-top: 15px;
+}

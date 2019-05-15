@@ -1,0 +1,146 @@
+@import "abstracts/variables";
+#left-container {
+  width: 350px;
+  height: 570px;
+  background: $Primary-white;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+.title-container {
+  background: $Secondary-black;
+  width: 350px;
+  height: 570px;
+}
+
+.save-btn {
+  width: 394px;
+  background: $Primary-color;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 17px;
+}
+
+.add-btn {
+  width: 190px;
+  height: 50px;
+  background: $Progress-color;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.cancel-btn {
+  width: 190px;
+  height: 50px;
+  background: $Progress-color;
+  border-radius: 5px;
+  background: $deactive-color;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+  background: $Secondary-background;
+}
+#Firstname,
+#Lastname,
+#select-form {
+  height: 52px;
+}
+
+#Bio {
+  height: 117px;
+  width: 350px;
+}
+form {
+  width: 600px;
+  margin-top: 60px;
+  height: 390px;
+}
+
+label {
+  margin-top: 20px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: 21px;
+  color: $Secondary-dark-1;
+}
+.active-item {
+  width: 6px;
+  float: left;
+}
+
+.active-option {
+  padding-top: 30px;
+  margin-left: 24px;
+  color: $Primary-color;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $nav-size;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.option {
+  margin-top: 18px;
+  margin-left: 25px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $nav-size;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $label-color;
+}
+.content-btn-cancel {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Secondary-dark-2;
+}
+.content-btn-save {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}
+.title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $Secondary-black;
+  margin-left: 155px;
+  margin-top: 36px;
+}
+.bloc {
+  width: 600px;
+  height: 135px;
+  border: 1px dashed $Secondary-dark-2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 90px;
+}
+
+p {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+
+  color: $Secondary-dark-2;
+}
+.d-flex {
+  padding-left: 0px;
+}

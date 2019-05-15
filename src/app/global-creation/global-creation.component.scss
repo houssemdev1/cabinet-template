@@ -1,0 +1,220 @@
+@import "abstracts/variables";
+.header-title {
+  padding-top: 5px;
+}
+.header-section {
+  height: 100px;
+  position: fixed;
+}
+.row {
+  padding-top: 23px;
+  margin-right: -25px;
+  margin-left: -25px;
+}
+h2 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $Step-color;
+}
+h3 {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11px;
+  color: $Secondary-dark-1;
+  opacity: 0.5;
+}
+
+.deactivated-content {
+  font-family: $nav-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $label-color;
+  transform: translateY(65%);
+}
+
+.activated-content {
+  font-family: $nav-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Primary-white;
+  transform: translateY(65%);
+}
+.activated-icon1,
+.activated-icon2,
+.activated-icon3,
+.activated-icon4,
+.activated-icon5 {
+  background: $Primary-1;
+  width: 55px;
+  height: 54px;
+  border-radius: 50%;
+  float: left;
+}
+
+.deactivated-icon {
+  width: 55px;
+  height: 54px;
+  border-radius: 50%;
+  background: $Progress-color;
+  float: left;
+}
+.step-items-container {
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.step-item {
+  margin-right: 14px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .step-info {
+    margin-left: 12px;
+    display: none;
+  }
+
+  &-number {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+
+    border-radius: 50%;
+
+    font-family: $nav-font;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    background: $Progress-color;
+    color: $Secondary-dark-2;
+  }
+
+  &-title {
+    display: block;
+
+    font-family: $Primary-font;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+
+    color: $Primary;
+  }
+
+  &-subtitle {
+    font-family: $Primary-font;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: $Primary;
+
+    opacity: 0.5;
+  }
+  &.done {
+    .step-item-number {
+      background: $Primary;
+      color: $Primary;
+      position: relative;
+
+      &:after {
+        content: url(/assets/check.svg);
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  &.active {
+    flex: 1;
+    display: flex;
+
+    .step-item-number {
+      background: $Primary;
+      color: $Primary-white;
+    }
+
+    .step-info {
+      display: block;
+    }
+  }
+}
+
+.footer-primarylink,
+a {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-1;
+  padding-top: 27px;
+}
+
+.footer-secondarylink,
+a {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $Secondary-dark-1;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+.footer {
+  height: 100px;
+  background: $Primary-white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.btn-next {
+  width: 264px;
+  height: 54px;
+  background: $Primary-1;
+}
+
+.btn-return {
+  width: 160px;
+  height: 54px;
+  background: $Progress-color;
+}
+.content-btn-return {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Secondary-dark-1;
+}
+.content-btn-next {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Primary-white;
+}

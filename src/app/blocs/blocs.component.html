@@ -1,0 +1,11 @@
+<app-header-step step="{{ headerstep }}"></app-header-step>
+<mat-progress-bar
+  mode="determinate"
+  value="{{ progress_value }}"
+></mat-progress-bar>
+
+<router-outlet></router-outlet>
+<app-footer-steps
+  (changeB)="countBackbloc($event)"
+  (changeN)="countNextbloc($event)"
+></app-footer-steps>

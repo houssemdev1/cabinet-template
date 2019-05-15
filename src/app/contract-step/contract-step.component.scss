@@ -1,0 +1,109 @@
+@import "abstracts/variables";
+
+.mat-slider {
+  width: 445px;
+  height: 5px;
+}
+::ng-deep .mat-accent .mat-slider-thumb {
+  background: $Primary-white;
+}
+::ng-deep .mat-slider-track-background {
+  background: $deactive-color !important;
+  height: 5px !important;
+}
+
+::ng-deep .mat-slider-track-fill {
+  height: 5px !important;
+  background: $Primary-gradient !important;
+}
+::ng-deep .mat-slider-track-wrapper {
+  height: 7px !important;
+}
+
+.content-btn {
+  float: left;
+}
+
+p {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  padding-top: 23px;
+  color: $Secondary-dark-2;
+}
+.modify-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  line-height: 3.5;
+}
+.modify-btn:focus {
+  border: none;
+}
+
+.secondary-title {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  color: $Secondary-dark-1;
+  padding-top: 107px;
+  padding-left: 0px;
+}
+
+.custom-container {
+  width: 445px;
+  height: 60px;
+  background: $Primary-white;
+}
+.yellow-container {
+  background: rgba(243, 207, 78, 0.05);
+  /* Warning */
+  border: 1px solid #f3cf4e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 445px;
+}
+
+.container-text {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  color: $Secondary-dark-1;
+  float: left;
+  padding-top: 20px;
+  padding-right: 70px;
+  padding-left: 20px;
+}
+
+.edit-text {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $label-size;
+  line-height: normal;
+  text-decoration-line: underline;
+  color: $Dark-gray;
+  padding-top: 20px;
+}
+
+.euro-text {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  color: $Primary-color;
+  float: right;
+  margin-left: 1px;
+}
+
+.btn {
+  margin-top: 25px;
+}

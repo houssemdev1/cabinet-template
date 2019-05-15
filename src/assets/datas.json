@@ -1,0 +1,76 @@
+
+{
+
+  "helpCards": [
+    { 
+      "Icon": "/assets/insert_emoticon.svg",
+        "Title": " Lorem Ipsum Dolor",
+        "Text": "Curabitur aliquam eget nullam"
+      },
+      {
+        "Icon": "/assets/whatshot.svg",
+        "Title": "Lorem Ipsum Dolor",
+        "Text": "Aenean tempus laoreet lorem"
+      },
+      {
+        "Icon": "/assets/location_city.svg",
+        "Title": " Cras Interdum Velit",
+        "Text": " Mauris consequat hendrerit ex"
+      }
+  ],
+
+
+  "ellipseCard":[
+{
+  "Icon": "/assets/Ellipse.svg",
+  "Title": " Définissez vos prix",
+  "Text": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/> incididunt ut labore et dolore magna."
+},
+{
+
+  "Icon": "/assets/Ellipse.svg",
+  "Title": " Définissez vos prix",
+  "Text": " Lorem ipsum dolor sit amet, consectetur  adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna."
+},
+{
+
+  "Icon": "/assets/Ellipse.svg",
+  "Title": " Paiement garantie",
+  "Text": " Lorem ipsum dolor sit amet, consectetur  adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna."
+}
+
+  ],
+
+  "cabinetCard":[
+{
+  "Cabinet": "/assets/cabinet.svg",
+  "Euro": "/assets/euro.svg",
+  "Etoile": "/assets/etoile.svg",
+  "Title": " Cabinet Dentaire Dentaire",
+  "Text": "Cabinet complet - 250 m2"
+},
+{
+  "Cabinet": "/assets/cabinet.svg",
+  "Euro": "/assets/euro.svg",
+  "Etoile": "/assets/etoile.svg",
+  "Title": " Cabinet Dentaire",
+  "Text": " Cabinet complet - 250 m2"
+},
+{
+  "Cabinet": "/assets/cabinet.svg",
+  "Euro": "/assets/euro.svg",
+  "Etoile": "/assets/etoile.svg",
+  "Title": " Cabinet Dentaire Dentaire",
+  "Text": "Cabinet complet - 250 m2"
+},
+{
+  "Cabinet": "/assets/cabinet.svg",
+  "Euro": "/assets/euro.svg",
+  "Etoile": "/assets/etoile.svg",
+  "Title": " Cabinet Dentaire ",
+  "Text": "Cabinet complet - 250 m2"
+}
+]
+
+
+}

@@ -1,0 +1,43 @@
+//Style of cards
+
+@import "abstracts/variables";
+.card {
+  transform: translateY(-50%);
+  width: 350px;
+  height: 240px;
+}
+
+//style of cards pictures
+
+.img-card {
+  padding-top: 31px;
+}
+
+//Custom style of the third card picture
+.img-card3 {
+  padding-top: 34px;
+}
+
+//style of number icons in Cards
+.number-icone1,
+.number-icone3 {
+  float: left;
+  padding-left: 50px;
+  padding-right: 14px;
+}
+//Custom style of second number icon
+.number-icone2 {
+  float: left;
+  padding-left: 10px;
+  padding-right: 14px;
+}
+//style of cards title
+.Title {
+  padding-top: 5px;
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: $Secondary-black;
+}

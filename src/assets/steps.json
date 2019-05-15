@@ -1,0 +1,29 @@
+{
+  "steps": [
+    {
+      " num": "1",
+      "title":"Étape 1 : Professions cibles",
+      " subtitle": "Professions à excercer au sein du cabinet"
+    },
+    {
+      " num": "2",
+      "title": "Étape 2 : Caractéristiques",
+      " subtitle": "Caractéristiques de votre cabinet"
+    },
+    {
+      " num": "3",
+      "title": "Étape 3 : Mettre en scène",
+      " subtitle": "Informations générales"
+    },
+    {
+      "num": "4",
+      "title": "Étape 4 : Tarifs et contrat",
+      "subtitle": "Définissez vos tarifs"
+    },
+    {
+      "num": "5",
+      "title": "Étape 5 : Organisez votre calendrier",
+      " subtitle": "Personailisez la disponibilité de votre cabinet"
+    }
+  ]
+}

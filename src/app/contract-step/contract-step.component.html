@@ -1,0 +1,82 @@
+<div class="content-section">
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="title">
+        Photos de cabinet
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="subtitle">
+        Liste des professions pouvant exercer au sein du cabinet
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="secondary-title">Prix du loyer demi-journée (En Euro)</div>
+      <button class="btn secondary-btn">
+        <div class="content-btn">{{ value }} €</div>
+      </button>
+    </div>
+    <div class="d-flex justify-content-center">
+      <mat-slider
+        class="example-margin"
+        [disabled]="disabled"
+        [invert]="invert"
+        [max]="max"
+        [min]="min"
+        [step]="step"
+        [thumbLabel]="thumbLabel"
+        [tickInterval]="tickInterval"
+        [(ngModel)]="value"
+        [vertical]="vertical"
+      >
+      </mat-slider>
+    </div>
+    <div class="d-flex justify-content-center" style="padding-top:50px">
+      <div class="custom-container">
+        <div class="container-text">
+          Prix du loyer pour une journée
+          <div class="euro-text">( {{ second_value }} € )</div>
+        </div>
+        <div>
+          <button class="modify-btn" (click)="go()">
+            <span class="edit-text">Modifier</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center" *ngIf="modify == true">
+      <div class="secondary-title">Prix du loyer journée (En Euro)</div>
+      <button class="btn secondary-btn">
+        <div class="content-btn">{{ second_value }} €</div>
+      </button>
+    </div>
+
+    <div class="d-flex justify-content-center" *ngIf="modify == true">
+      <mat-slider
+        class="example-margin"
+        [disabled]="disabled"
+        [invert]="invert"
+        [max]="second_max"
+        [min]="second_min"
+        [step]="second_step"
+        [thumbLabel]="second_thumbLabel"
+        [tickInterval]="stickInterval"
+        [(ngModel)]="second_value"
+        [vertical]="vertical"
+      >
+      </mat-slider>
+    </div>
+
+    <div class="d-flex justify-content-center" style="padding-top:50px">
+      <div class="yellow-container">
+        <img src="/assets/Info.svg" style="float:left;padding:23px" />
+        <p>
+          Cocabinet aura une commission de 10% pour <br />chaque réservation
+          réalisée
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+//footer style
+.footer-primarylink,
+a {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: $Secondary-dark-1;
+  padding-top: 27px;
+}
+
+.footer-secondarylink,
+a {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-transform: uppercase;
+  color: $Secondary-dark-1;
+  opacity: 0.5;
+  padding-top: 5px;
+}
+
+.btn-next {
+  width: 264px;
+  height: 54px;
+  background: $Primary-1;
+}
+.footer {
+  height: 100px;
+  background: $Primary-white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.btn-return {
+  width: 160px;
+  height: 54px;
+  background: $Progress-color;
+}
+.content-btn-return {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Secondary-dark-1;
+}
+.content-btn-next {
+  font-family: $Primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $label-size;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $Primary-white;
+}
+.btn {
+  margin-top: 25px;
+}

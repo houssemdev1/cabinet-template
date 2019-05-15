@@ -1,0 +1,66 @@
+<div class="content-section">
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="title">
+        Choisir professions cibles
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="subtitle">
+        Liste des professions pouvant exercer au sein du cabinet
+      </div>
+    </div>
+
+    <div class="row input-row">
+      <input
+        class="form-control"
+        type="text"
+        placeholder="chercher une profession"
+      />
+    </div>
+
+    <!--choices  bloc-->
+    <div class="row choice-row">
+      <div class="col-md-3  " *ngFor="let item of choices">
+        <button class="btn  choice">
+          <div class="content-btn">
+            <span>
+              <img src="/assets/add.svg" />
+            </span>
+            <span class="btn-name">
+              {{ item.name }}
+            </span>
+          </div>
+        </button>
+      </div>
+    </div>
+    <!--gray line-->
+    <div class="row">
+      <div class="gray-section"></div>
+    </div>
+    <!--choices professions bloc-->
+    <div class="row choice-row">
+      <div
+        class="col-md-3"
+        style="margin-top:25px"
+        *ngFor="let item of professions; let i = index"
+      >
+        <button
+          [ngClass]="{
+            choice: item.status == 'active'
+          }"
+          (click)="testing(i)"
+        >
+          <div class="content-btn">
+            <span>
+              <img src="/assets/add.svg" />
+            </span>
+            <span class="btn-name">
+              {{ item.name }}
+            </span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

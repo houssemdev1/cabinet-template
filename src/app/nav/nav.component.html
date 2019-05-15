@@ -1,0 +1,109 @@
+<!--First  Section-->
+<div class="first-section">
+  <div class="container">
+    <div class="row" style="padding-top:30px">
+      <div class="col-md-4">
+        <a class="navbar-brand" href="#"
+          ><img
+            style="padding-left:0px;padding-top:5px"
+            src="/assets/cocab1.svg"
+        /></a>
+      </div>
+      <div class="col-md-8">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top bg-transparent">
+          <button
+            class="navbar-toggler"
+            type="button"
+            style="background:linear-gradient(119.05deg, #8f68fc 0%, #292984 100.61%);"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#" style="justify-content:flex-end"
+                  >Trouver un Cabinet<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">à propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerlink="/login">Connexion</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn-inscription" type="submit" (click)="routing()">
+                <div class="content-btn">Inscription</div>
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row" style="padding-left:15px;padding-top: 92px;">
+      <div class="purple-title">
+        Faites de votre cabinet une nouvelle <br />source de revenu
+      </div>
+      <div class="simple-text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+          consectetur est<br />
+          ac nisi sodales, sit amet lacinia metus blandit. Lorem ipsum dolor sit
+          amet.<br />
+        </p>
+      </div>
+    </div>
+    <div class="row" style="padding-left:15px">
+      <button class="add-button" type="submit">
+        <div class="content-btn">AJOUTER MON CABINET</div>
+      </button>
+    </div>
+  </div>
+
+  <!--Second Section-->
+
+  <div class="second-section">
+    <div class="container">
+      <div class="row">
+        <app-option-card
+          CardNum="1"
+          Icon="group1.svg"
+          Num="num1.svg"
+          Title="Ajouter votre cabinet"
+        ></app-option-card>
+        <app-option-card
+          CardNum="2"
+          Icon="group2.svg"
+          Num="num2.svg"
+          Title="Définissez vos disponibilités"
+        ></app-option-card>
+        <app-option-card
+          CardNum="3"
+          Icon="group3.svg"
+          Num="num3.svg"
+          Title="Gérer les demandes"
+        ></app-option-card>
+      </div>
+      <div class="row " style="margin-top: 50px;padding-left: 15px">
+        <img class="title-logo" src="/assets/Logo.svg" />
+        <h3>
+          <div class="purple-title">
+            Un plus grand choix de cabinets en 2019
+          </div>
+        </h3>
+      </div>
+
+      <app-cabinet-card></app-cabinet-card>
+    </div>
+    <app-content></app-content>
+  </div>
+</div>
